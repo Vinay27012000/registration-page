@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    
+    <link rel="stylesheet" href="css.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vinay Gupta</title>
+</head>
+<body>
+    <div class="container con">
+    <div class="form">
+            <h1>STUDENT REGISTRATION</h1>
+            <h3>Personal Details</h3>
+            <form action="#">
+                <!-- <First name> -->
+                    <div class="row">
+                        <div class="col-sm-12 col-md-4 col-lg-4">
+                            <label for="fname">First Name :</label>
+                            <input type="text" class="inputs" name="fname"  placeholder="first name">
+                        </div>    
+                <!-- <second name> -->
+                    <div class="col-sm-12 col-md-4 col-lg-4">
+                            <label for="lname">Last Name :</label>
+                            <input type="text" class="inputs"name="lname" placeholder="last name"><br>
+                    </div>
+                </div>
+                <div class="row">
+                <!-- <date of birth> -->
+                    <div class="col-sm-12 col-md-4 col-lg-4">
+                        <label for="dob">Date of Birth :</label>
+                        <input type="date" class="inputs" name="dob">
+                    </div>
+                <!-- <E-mail> -->
+                    <div class="col-sm-12 col-md-4 col-lg-4">
+                        <label for="email">E-mail :</label>
+                        <input type="email" class="inputs" placeholder="E-mail" id="" required>
+                    </div>    
+                </div>
+                <!-- <gender> -->
+                    <div class="row gen">
+                        <div class="col-md-4 col-sm-12 col-lg-4">
+                            <label for="gen">Gender :</label>
+
+                            <label for="gen">Male</label>
+                            <input type="radio" class="gen" name="gen" id="Male">
+                            <label for="gen">Female</label>
+                            <input type="radio" class="gen" name="gen" id="Female">
+                        </div> 
+                        <div class="col-md-4 col-sm-12 col-lg-4">
+                            <label for="phn">Phone No. :</label>
+                            <input type="number" class="inputs" placeholder="+91-0000000000">
+                        </div> 
+
+                    </div>
+            
+               
+               <br>
+               <div class="row"><h3>Educational Details</h3></div>
+               <div class="row">
+                <div class="col-md-4 col-sm-12 col-lg-4">
+                    <label for="highedu">Higher Education :</label> 
+                    <select class="inputs"><option>select</option>
+                        <option>Bachelor of Computer Application</option>
+                        <option>Bachelor of Technology</option>
+                        <option>Bachelor of Arts</option>
+                        <option>Bachelor of Science</option>
+                        <option>Bachelor of Commerce</option>
+                    </select>
+                </div>
+                <div class="col-md-4 col-sm-12 col-lg-4"><label>College/University :</label><input type="text" class="inputs"></div>
+               </div>
+               <div class="row">
+                <div class="col-md-4 col-sm-12 col-lg-4"><label for="Agg">Aggregate % :</label><input type="text" class="inputs"></div>
+               <div class="col-md-4 col-sm-12 col-lg-4"><label for="Duration" >Duration :</label>
+                <select class="inputs">
+                <option>select</option>
+                    <option>4 years</option>
+                    <option>3 years</option>
+                    <option>2 years</option></select></div>
+               </div>
+               <div class="row">
+                <div class="col-md-4 col-sm-12 col-lg-4"><label for="sscl">Matriculation % :</label><input type="text" class="inputs"></div>
+               <div class="col-md-4 col-sm-12 col-lg-4"><lebel for="hscl">Intermediate % :</lebel><input type="text" class="inputs"></div>
+               </div>
+                <br>
+               <div class="row"><div class="col-md-4 col-sm-12 col-lg-4">
+                <h3>Contact Address</h3>
+               </div></div>
+               <div class="row">
+                <div class="col-md-4 col-sm-12 col-lg-4"><lebel for="hno">House No :</lebel>
+                    <input type="text" class="inputs"></div>
+               <div class="col-md-4 col-sm-12 col-lg-4"><label for="area">Area :</label><input type="text" class="inputs"></div>
+                </div>
+               <div class="row">
+                <div class="col-md-4 col-sm-12 col-lg-4">
+                    <label for="city">City :</label>
+                    <select name="city" class="inputs" form="">
+                        <option value="select">select</option>
+                        <option value="Ghaziabad">Ghaziabad</option>
+                        <option value="Itanagar">Itanagar</option>
+                        <option value="Dispur">Dispur</option>
+                        <option value="Patna">Patna</option>
+                        <option value="Raipur">Raipur</option>
+                        <option value="Gandhinagar">Gandhinagar</option>
+                        <option value="Shimla">Shimla</option>
+                        <option value="Trivandrum">Trivandrum</option>
+                        <option value="Mumbai">Mumbai</option>
+                        <option value="Kohima">Kohima</option>
+                        <option value="Lucknow">Lucknow</option>
+                        <option value="Dehradun">Dehradun</option>
+                    </select>
+                </div>     
+                <div class="col-md-4 col-sm-12 col-lg-4">
+                    <label for="state">State :</label>
+                    <select name="State" class="inputs" form="">
+                        <option value="select">select</option>
+                        <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                        <option value="Assam">Assam</option>
+                        <option value="Bihar">Bihar</option>
+                        <option value="Chhattisgarh">Chhattisgarh</option>
+                        <option value="Gujarat">Gujarat</option>
+                        <option value="Haryana">Haryana</option>
+                        <option value="Jharkhand">Jharkhand</option>
+                        <option value="Kerala">Kerala</option>
+                        <option value="Meghalaya">Meghalaya</option>
+                        <option value="Nagaland">Nagaland</option>
+                        <option value="Uttar Pradesh">Uttar Pradesh</option>
+                        <option value="Uttarakhand">Uttarakhand</option>
+                      </select>
+                </div> 
+               </div>
+               <div class="row">
+                <div class="col-md-4 col-sm-12 col-lg-4"><label for="pin">Pincode :</label><input type="number" class="inputs"></div>
+               </div>
+               <div class="row">
+                <div class="col-4"></div><div class="col-md-1 col-sm-2 col-lg-1">
+                <button type="submit" name="submit" class="btn btn-primary">Submit</button>
+               </div>
+               <div class="col-md-1 col-sm-2 col-lg-1"><button type="cancel" class="btn btn-danger">Cancel</button></div>
+            </form>
+    </div></div>
+</body>
+</html>
